@@ -1,4 +1,4 @@
-= Dealing with Clojure namespaces =
+# Dealing with Clojure namespaces
 
 <pre>
 
