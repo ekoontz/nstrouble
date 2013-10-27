@@ -1,13 +1,25 @@
-# nstrouble
+= Dealing with Clojure namespaces =
 
-A Clojure library designed to ... well, that part is up to you.
+<pre>
 
-## Usage
+ekoontz@mac ~/nstrouble $ lein repl
+nREPL server started on port 61492
+REPL-y 0.2.0
+Clojure 1.5.1
+    Docs: (doc function-name-here)
+          (find-doc "part-of-name-here")
+  Source: (source function-name-here)
+ Javadoc: (javadoc java-object-or-class-here)
+    Exit: Control+D or (exit) or (quit)
 
-FIXME
+user=> (load "nstrouble/foo")
+nil
+user=> (in-ns 'nstrouble.foo)
+#<Namespace nstrouble.foo>
+nstrouble.foo=> myval
+42
+nstrouble.foo=> myval2
+43
+nstrouble.foo=> Bye for now!ekoontz@mac ~/nstrouble $
 
-## License
-
-Copyright © 2013 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+</pre>
